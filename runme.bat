@@ -1,0 +1,1 @@
+java -jar harmony-content-manager.jar

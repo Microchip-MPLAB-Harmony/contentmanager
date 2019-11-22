@@ -1,0 +1,14 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Denote all files that are truly binary and should not be modified.
+*.jar -diff
+*.a -diff
+*.png -diff
+*.bat text
+*.sh eol=lf
+*.md eol=lf
+*.xml eol=lf
+*.chm -diff
+*.html eol=lf
+*.css eol=lf

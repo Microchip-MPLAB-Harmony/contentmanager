@@ -5,6 +5,21 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Content Manager Release v1.3.0
+
+### New Features and Fixes
+- Now Customers are notified for latest MHC updates and news feeds
+- New Options have been provided to change Framework path and to refresh content manager.
+- Content Manager is closing properly now in Linux OS.
+- Application browser search box UI issue has been fixed.
+
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB® X IDE v5.30](https://www.microchip.com/mplab/mplab-x-ide)
+
 ## MPLAB® Harmony 3 Content Manager Release v1.2.0
 
 ### New Features and Fixes

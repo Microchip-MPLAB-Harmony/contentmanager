@@ -5,6 +5,18 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Content Manager Release v1.3.1
+
+### New Features and Fixes
+- Default installation path updated to avoid any potential confusion.
+- Version of dependencies are now visible in the UI, obtained from Package metadata.
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB® X IDE v5.30 and up](https://www.microchip.com/mplab/mplab-x-ide)
+
 ## MPLAB® Harmony 3 Content Manager Release v1.3.0
 
 ### New Features and Fixes

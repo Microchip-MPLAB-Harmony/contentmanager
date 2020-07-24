@@ -44,3 +44,4 @@ Content manager uses following open sources libraries:
 | simple-xml-2.7.1.jar                         	| The Apache Software License, Version 2.0 http://www.apache.org/licenses/LICENSE-2.0.txt   |
 | slf4j-api-1.7.25.jar                         	| MIT License http://www.opensource.org/licenses/mit-license.php                            |
 | slf4j-simple-1.7.25.jar                      	| MIT License http://www.opensource.org/licenses/mit-license.php                            |
+| snakeyaml-1.26.jar                            | The Apache Software License, Version 2.0 http://www.apache.org/licenses/LICENSE-2.0.txt   |

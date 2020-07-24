@@ -5,6 +5,22 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Content Manager Release v1.4.0
+
+### New Features and Fixes
+- Added support to load manifest file to checkout all dependencies of Harmony Project. 
+- Added support to checkout dependencies of a local harmony package.
+- Added support to validate the selected remote path with existing framework setup for Content Manager.
+- Added support to avoid launching Content Manager when MHC is active.
+- Added support to list out only annotated tags.
+- Fixed issue of launching multiple instances of Content Manager.
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB® X IDE v5.40 and up](https://www.microchip.com/mplab/mplab-x-ide)
+
 ## MPLAB® Harmony 3 Content Manager Release v1.3.1
 
 ### New Features and Fixes

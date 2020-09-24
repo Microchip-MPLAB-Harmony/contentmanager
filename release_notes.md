@@ -1,9 +1,27 @@
+---
+title: Release notes
+nav_order: 99
+---
+
 # MPLAB® Harmony 3 Release Notes
 
 See the following links and release notes for additional information.
- - [Read-me File](./readme.md)
+ - [Read-me File](readme.md)
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
+
+## MPLAB® Harmony 3 Content Manager Release v1.5.0
+
+### New Features and Fixes
+- Added support to list application packages as sub tree of their parent API package. 
+- Added JFXtabpane view support for local packages, remote packages and application browser tabs.
+- Fixed bug when log window wasn't closed when exiting application.
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB® X IDE v5.40 and up](https://www.microchip.com/mplab/mplab-x-ide)
 
 ## MPLAB® Harmony 3 Content Manager Release v1.4.0
 

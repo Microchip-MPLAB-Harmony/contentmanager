@@ -152,7 +152,7 @@ After launching the MPLAB® Harmony Content Manager, you will need identify the 
         ![Figure 1-12.2. Load Manifest](images/figure_1.12.2.png)
 
             Figure 1-12.2. Load Manifest
-        * After clicking on load manifest, we need to select manifest file (harmony-manifest-success.yml) of harmony project.
+        * After clicking on load manifest, we need to select  harmony project directory to load manifest file automatically (harmony-manifest-success.yml).
         ![Figure 1-12.3. Load Manifest](images/figure_1.12.3.png)
 
             Figure 1-12.3. Load Manifest
@@ -213,10 +213,24 @@ After launching the MPLAB® Harmony Content Manager, you will need identify the 
 
         Figure 2-2. Content Manager Jar
 
-## Note-> Regarding __Content Manager future updates__
+## Note 2-> Regarding __Content Manager future updates__
 
 * Case 1: If user selects new local harmony path->
   * Then always latest content manager will be cloned to selected harmony path and will be launched.
 * Case 2: If user selects exising local harmony path->
   * If user is having internet connection, then existing content manager will be deleted locally and latest content manager will be updated. (Older content manager will be replaced by latest one)
   * If user doesn't have internet connection, then locally existing content manager will be launched.
+
+## Network Ports Usage
+
+This section describes which network ports are used in Content Manager. This may help users on configuring their proxy/firewall/antivirus properly.
+
+Content Manager is independant from MPLAB X. It is using system settings regarding proxy. If user machine doesn't allow the Content Manager to create connections on 443, then it can *not* download any repositories. So, you must not deny the Content Manager to create https connection with Github in port 443.
+
+The Windows only git service (based on libgit2) is using random port on localhost. So, please make sure that it is not blocked by security tools.
+
+| Port    | Service     | Description |
+|-----    |--------     |-------------|
+| 443     | HTTPS       | Access to the web application and Git over HTTPS. |
+| 80      | HTTP        | Access to the web application. All requests are redirected to the HTTPS port when SSL is enabled. |
+| random  | proprietary | Windows only. Localhost connection on git service (faster cloning) |

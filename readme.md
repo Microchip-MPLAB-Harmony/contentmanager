@@ -42,17 +42,18 @@ This repository can be downloaded and the harmony-content-manager.jar can be exe
 
 Content manager uses following open sources libraries:
 
-| Library Name                                  | Version                    | License                                                                                               |
-|-----------------------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------|
-| [jsch-0.1.54.jar](https://mvnrepository.com/artifact/com.jcraft/jsch/0.1.54)								| 0.1.54              | Revised BSD http://www.jcraft.com/jsch/LICENSE.txt                                        |
-| [jsoup-1.10.2.jar](https://mvnrepository.com/artifact/org.jsoup/jsoup/1.10.2)								| 1.10.2              | MIT License http://www.opensource.org/licenses/mit-license.php                                        |
-| [org.eclipse.jgit-4.11.0.201803080745-r.jar](https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit/4.11.0.201803080745-r)   	| 4.11.0.201803080745-r | Eclipse Distribution License (New BSD License)                                            |
-| [simple-xml-2.7.1.jar](https://mvnrepository.com/artifact/org.simpleframework/simple-xml/2.7.1)                          | 2.7.1               | The Apache Software License, Version 2.0 [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)               |
-| [slf4j-api-1.7.25.jar](https://mvnrepository.com/artifact/org.slf4j/slf4j-api/1.7.2)                         	| 1.7.25              | MIT License http://www.opensource.org/licenses/mit-license.php                            |
-| [slf4j-simple-1.7.25.jar](https://mvnrepository.com/artifact/org.slf4j/slf4j-simple/1.7.25)                      	| 1.7.25              | MIT License http://www.opensource.org/licenses/mit-license.php                            |
-| [snakeyaml-1.26.jar](https://mvnrepository.com/artifact/org.yaml/snakeyaml/1.26)                      	| 1.26.0              | The Apache Software License, Version 2.0 [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)               |
-| [jfoenix-8.0.10.jar](https://mvnrepository.com/artifact/com.jfoenix/jfoenix/8.0.10)                      	| 8.0.10              | The Apache Software License, Version 2.0 [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)               |
-____
+| Library Name                      																										| Version               | License                  									   					|
+| ------------																																| -------				| -------													   					|
+| [jsch-0.1.54.jar](https://mvnrepository.com/artifact/com.jcraft/jsch/0.1.54)																| 0.1.54              	| Revised BSD http://www.jcraft.com/jsch/LICENSE.txt   |
+| [jsoup-1.10.2.jar](https://mvnrepository.com/artifact/org.jsoup/jsoup/1.10.2)																| 1.10.2              	| MIT License http://www.opensource.org/licenses/mit-license.php                                        |
+| [org.eclipse.jgit-4.11.0.201803080745-r.jar](https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit/4.11.0.201803080745-r)  | 4.11.0.201803080745-r | Eclipse Distribution License (New BSD License)                                            |
+| [simple-xml-2.7.1.jar](https://mvnrepository.com/artifact/org.simpleframework/simple-xml/2.7.1)                          					| 2.7.1               	| The Apache Software License, Version 2.0 [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)               |
+| [slf4j-api-1.7.25.jar](https://mvnrepository.com/artifact/org.slf4j/slf4j-api/1.7.2)                         								| 1.7.25              	| MIT License http://www.opensource.org/licenses/mit-license.php                            |
+| [slf4j-simple-1.7.25.jar](https://mvnrepository.com/artifact/org.slf4j/slf4j-simple/1.7.25)                      							| 1.7.25              	| MIT License http://www.opensource.org/licenses/mit-license.php                            |
+| [snakeyaml-1.26.jar](https://mvnrepository.com/artifact/org.yaml/snakeyaml/1.26)                      									| 1.26.0              	| The Apache Software License, Version 2.0 [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)               |
+| [jfoenix-8.0.10.jar](https://mvnrepository.com/artifact/com.jfoenix/jfoenix/8.0.10)                      									| 8.0.10              	| The Apache Software License, Version 2.0 [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)               |
+| [libgit2](https://github.com/libgit2/libgit2/releases/tag/v0.28.3)                      													| 0.28.3              	| GNU GENERAL PUBLIC LICENSE Version 2 with linking exception [https://github.com/libgit2/libgit2/blob/main/COPYING](https://github.com/libgit2/libgit2/blob/main/COPYING) |
+
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/contentmanager/blob/master/mplab_harmony_license.md)
 [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/contentmanager.svg)](https://github.com/Microchip-MPLAB-Harmony/contentmanager/releases/latest)
 [![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/contentmanager.svg)](https://github.com/Microchip-MPLAB-Harmony/contentmanager/releases/latest)

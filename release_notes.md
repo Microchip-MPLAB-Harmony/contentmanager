@@ -10,6 +10,20 @@ See the following links and release notes for additional information.
  - [Welcome to MPLAB Harmony 3](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)
  - [www.microchip.com/harmony](https://www.microchip.com/harmony)
 
+## MPLAB® Harmony 3 Content Manager Release v1.6.0
+
+### New Features and Fixes
+- Added support to load project manifest file automatically from project directory. 
+- Added support to warn user if mhc update is available in remote.
+- Added support to warn user when Content Manager is closed if any download/update/checkout operation are in progress.
+- Fixed trustzone project copy issue in Application Browser.
+
+### Known Issues
+- None
+
+### Development Tools
+- [MPLAB® X IDE v5.45 and up](https://www.microchip.com/mplab/mplab-x-ide)
+
 ## MPLAB® Harmony 3 Content Manager Release v1.5.0
 
 ### New Features and Fixes
